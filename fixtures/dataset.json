@@ -1,0 +1,1539 @@
+{
+  "generation": "domain-1-v1",
+  "tables": {
+    "stations": [
+      {
+        "station_id": "s0",
+        "position_version": 1,
+        "x": 0,
+        "y": 0,
+        "start": "2025-06-01T00:00:00+00:00",
+        "end": "2025-06-11T00:00:00+00:00"
+      },
+      {
+        "station_id": "s1",
+        "position_version": 1,
+        "x": 300,
+        "y": 200,
+        "start": "2025-06-01T00:00:00+00:00",
+        "end": null
+      },
+      {
+        "station_id": "s2",
+        "position_version": 1,
+        "x": 600,
+        "y": 0,
+        "start": "2025-06-01T00:00:00+00:00",
+        "end": null
+      },
+      {
+        "station_id": "s3",
+        "position_version": 1,
+        "x": 900,
+        "y": 200,
+        "start": "2025-06-01T00:00:00+00:00",
+        "end": null
+      },
+      {
+        "station_id": "s4",
+        "position_version": 1,
+        "x": 1200,
+        "y": 0,
+        "start": "2025-06-01T00:00:00+00:00",
+        "end": null
+      },
+      {
+        "station_id": "s5",
+        "position_version": 1,
+        "x": 1500,
+        "y": 200,
+        "start": "2025-06-01T00:00:00+00:00",
+        "end": null
+      },
+      {
+        "station_id": "s0",
+        "position_version": 2,
+        "x": 800,
+        "y": 0,
+        "start": "2025-06-11T00:00:00+00:00",
+        "end": null
+      }
+    ],
+    "readings": [
+      {
+        "reading_id": "r0-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-01T12:00:00+00:00",
+        "end": "2025-06-01T14:00:00+00:00",
+        "rain_mm": 0.66,
+        "quality": "valid",
+        "process_id": "p0"
+      },
+      {
+        "reading_id": "r0-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-01T12:00:00+00:00",
+        "end": "2025-06-01T13:00:00+00:00",
+        "rain_mm": 11.72,
+        "quality": "valid",
+        "process_id": "p0"
+      },
+      {
+        "reading_id": "r0-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-01T12:00:00+00:00",
+        "end": "2025-06-01T14:00:00+00:00",
+        "rain_mm": 4.96,
+        "quality": "valid",
+        "process_id": "p0"
+      },
+      {
+        "reading_id": "r0-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-01T12:00:00+00:00",
+        "end": "2025-06-01T13:00:00+00:00",
+        "rain_mm": 4.24,
+        "quality": "valid",
+        "process_id": "p0"
+      },
+      {
+        "reading_id": "r0-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-01T12:00:00+00:00",
+        "end": "2025-06-01T14:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing",
+        "process_id": "p0"
+      },
+      {
+        "reading_id": "r0-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-01T12:00:00+00:00",
+        "end": "2025-06-01T13:00:00+00:00",
+        "rain_mm": 3.37,
+        "quality": "valid",
+        "process_id": "p0"
+      },
+      {
+        "reading_id": "r1-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-02T12:00:00+00:00",
+        "end": "2025-06-02T14:00:00+00:00",
+        "rain_mm": 5.21,
+        "quality": "valid",
+        "process_id": "p1"
+      },
+      {
+        "reading_id": "r1-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-02T12:00:00+00:00",
+        "end": "2025-06-02T13:00:00+00:00",
+        "rain_mm": 13.11,
+        "quality": "valid",
+        "process_id": "p1"
+      },
+      {
+        "reading_id": "r1-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-02T12:00:00+00:00",
+        "end": "2025-06-02T14:00:00+00:00",
+        "rain_mm": 11.53,
+        "quality": "valid",
+        "process_id": "p1"
+      },
+      {
+        "reading_id": "r1-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-02T12:00:00+00:00",
+        "end": "2025-06-02T13:00:00+00:00",
+        "rain_mm": 10.06,
+        "quality": "valid",
+        "process_id": "p1"
+      },
+      {
+        "reading_id": "r1-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-02T12:00:00+00:00",
+        "end": "2025-06-02T14:00:00+00:00",
+        "rain_mm": 11.8,
+        "quality": "valid",
+        "process_id": "p1"
+      },
+      {
+        "reading_id": "r1-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-02T12:00:00+00:00",
+        "end": "2025-06-02T13:00:00+00:00",
+        "rain_mm": 14.99,
+        "quality": "valid",
+        "process_id": "p1"
+      },
+      {
+        "reading_id": "r2-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-03T12:00:00+00:00",
+        "end": "2025-06-03T14:00:00+00:00",
+        "rain_mm": 12.09,
+        "quality": "valid",
+        "process_id": "p2"
+      },
+      {
+        "reading_id": "r2-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-03T12:00:00+00:00",
+        "end": "2025-06-03T13:00:00+00:00",
+        "rain_mm": 15.48,
+        "quality": "valid",
+        "process_id": "p2"
+      },
+      {
+        "reading_id": "r2-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-03T12:00:00+00:00",
+        "end": "2025-06-03T14:00:00+00:00",
+        "rain_mm": 19.05,
+        "quality": "valid",
+        "process_id": "p2"
+      },
+      {
+        "reading_id": "r2-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-03T12:00:00+00:00",
+        "end": "2025-06-03T13:00:00+00:00",
+        "rain_mm": 12.82,
+        "quality": "valid",
+        "process_id": "p2"
+      },
+      {
+        "reading_id": "r2-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-03T12:00:00+00:00",
+        "end": "2025-06-03T14:00:00+00:00",
+        "rain_mm": 18.77,
+        "quality": "valid",
+        "process_id": "p2"
+      },
+      {
+        "reading_id": "r2-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-03T12:00:00+00:00",
+        "end": "2025-06-03T13:00:00+00:00",
+        "rain_mm": 14.95,
+        "quality": "valid",
+        "process_id": "p2"
+      },
+      {
+        "reading_id": "r3-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-04T12:00:00+00:00",
+        "end": "2025-06-04T14:00:00+00:00",
+        "rain_mm": 16.11,
+        "quality": "valid",
+        "process_id": "p3"
+      },
+      {
+        "reading_id": "r3-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-04T12:00:00+00:00",
+        "end": "2025-06-04T13:00:00+00:00",
+        "rain_mm": 22.6,
+        "quality": "valid",
+        "process_id": "p3"
+      },
+      {
+        "reading_id": "r3-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-04T12:00:00+00:00",
+        "end": "2025-06-04T14:00:00+00:00",
+        "rain_mm": 17.06,
+        "quality": "valid",
+        "process_id": "p3"
+      },
+      {
+        "reading_id": "r3-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-04T12:00:00+00:00",
+        "end": "2025-06-04T13:00:00+00:00",
+        "rain_mm": 23.57,
+        "quality": "valid",
+        "process_id": "p3"
+      },
+      {
+        "reading_id": "r3-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-04T12:00:00+00:00",
+        "end": "2025-06-04T14:00:00+00:00",
+        "rain_mm": 23.2,
+        "quality": "valid",
+        "process_id": "p3"
+      },
+      {
+        "reading_id": "r3-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-04T12:00:00+00:00",
+        "end": "2025-06-04T13:00:00+00:00",
+        "rain_mm": 23.4,
+        "quality": "valid",
+        "process_id": "p3"
+      },
+      {
+        "reading_id": "r4-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-05T12:00:00+00:00",
+        "end": "2025-06-05T14:00:00+00:00",
+        "rain_mm": 1.36,
+        "quality": "valid",
+        "process_id": "p4"
+      },
+      {
+        "reading_id": "r4-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-05T12:00:00+00:00",
+        "end": "2025-06-05T13:00:00+00:00",
+        "rain_mm": 11.66,
+        "quality": "valid",
+        "process_id": "p4"
+      },
+      {
+        "reading_id": "r4-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-05T12:00:00+00:00",
+        "end": "2025-06-05T14:00:00+00:00",
+        "rain_mm": 0.13,
+        "quality": "valid",
+        "process_id": "p4"
+      },
+      {
+        "reading_id": "r4-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-05T12:00:00+00:00",
+        "end": "2025-06-05T13:00:00+00:00",
+        "rain_mm": 10.76,
+        "quality": "valid",
+        "process_id": "p4"
+      },
+      {
+        "reading_id": "r4-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-05T12:00:00+00:00",
+        "end": "2025-06-05T14:00:00+00:00",
+        "rain_mm": 0.61,
+        "quality": "valid",
+        "process_id": "p4"
+      },
+      {
+        "reading_id": "r4-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-05T12:00:00+00:00",
+        "end": "2025-06-05T13:00:00+00:00",
+        "rain_mm": 11.09,
+        "quality": "valid",
+        "process_id": "p4"
+      },
+      {
+        "reading_id": "r5-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-06T12:00:00+00:00",
+        "end": "2025-06-06T14:00:00+00:00",
+        "rain_mm": 6.29,
+        "quality": "valid",
+        "process_id": "p5"
+      },
+      {
+        "reading_id": "r5-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-06T12:00:00+00:00",
+        "end": "2025-06-06T13:00:00+00:00",
+        "rain_mm": 8.33,
+        "quality": "valid",
+        "process_id": "p5"
+      },
+      {
+        "reading_id": "r5-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-06T12:00:00+00:00",
+        "end": "2025-06-06T14:00:00+00:00",
+        "rain_mm": 4.56,
+        "quality": "valid",
+        "process_id": "p5"
+      },
+      {
+        "reading_id": "r5-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-06T12:00:00+00:00",
+        "end": "2025-06-06T13:00:00+00:00",
+        "rain_mm": 7.52,
+        "quality": "valid",
+        "process_id": "p5"
+      },
+      {
+        "reading_id": "r5-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-06T12:00:00+00:00",
+        "end": "2025-06-06T14:00:00+00:00",
+        "rain_mm": 13.65,
+        "quality": "valid",
+        "process_id": "p5"
+      },
+      {
+        "reading_id": "r5-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-06T12:00:00+00:00",
+        "end": "2025-06-06T13:00:00+00:00",
+        "rain_mm": 6.45,
+        "quality": "valid",
+        "process_id": "p5"
+      },
+      {
+        "reading_id": "r6-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-07T12:00:00+00:00",
+        "end": "2025-06-07T14:00:00+00:00",
+        "rain_mm": 15.14,
+        "quality": "valid",
+        "process_id": "p6"
+      },
+      {
+        "reading_id": "r6-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-07T12:00:00+00:00",
+        "end": "2025-06-07T13:00:00+00:00",
+        "rain_mm": 15.02,
+        "quality": "valid",
+        "process_id": "p6"
+      },
+      {
+        "reading_id": "r6-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-07T12:00:00+00:00",
+        "end": "2025-06-07T14:00:00+00:00",
+        "rain_mm": 8.71,
+        "quality": "valid",
+        "process_id": "p6"
+      },
+      {
+        "reading_id": "r6-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-07T12:00:00+00:00",
+        "end": "2025-06-07T13:00:00+00:00",
+        "rain_mm": 12.25,
+        "quality": "valid",
+        "process_id": "p6"
+      },
+      {
+        "reading_id": "r6-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-07T12:00:00+00:00",
+        "end": "2025-06-07T14:00:00+00:00",
+        "rain_mm": 9.36,
+        "quality": "valid",
+        "process_id": "p6"
+      },
+      {
+        "reading_id": "r6-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-07T12:00:00+00:00",
+        "end": "2025-06-07T13:00:00+00:00",
+        "rain_mm": 14.23,
+        "quality": "valid",
+        "process_id": "p6"
+      },
+      {
+        "reading_id": "r7-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-08T12:00:00+00:00",
+        "end": "2025-06-08T14:00:00+00:00",
+        "rain_mm": 18.18,
+        "quality": "valid",
+        "process_id": "p7"
+      },
+      {
+        "reading_id": "r7-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-08T12:00:00+00:00",
+        "end": "2025-06-08T13:00:00+00:00",
+        "rain_mm": 14.46,
+        "quality": "valid",
+        "process_id": "p7"
+      },
+      {
+        "reading_id": "r7-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-08T12:00:00+00:00",
+        "end": "2025-06-08T14:00:00+00:00",
+        "rain_mm": 16.3,
+        "quality": "valid",
+        "process_id": "p7"
+      },
+      {
+        "reading_id": "r7-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-08T12:00:00+00:00",
+        "end": "2025-06-08T13:00:00+00:00",
+        "rain_mm": 19.18,
+        "quality": "valid",
+        "process_id": "p7"
+      },
+      {
+        "reading_id": "r7-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-08T12:00:00+00:00",
+        "end": "2025-06-08T14:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing",
+        "process_id": "p7"
+      },
+      {
+        "reading_id": "r7-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-08T12:00:00+00:00",
+        "end": "2025-06-08T13:00:00+00:00",
+        "rain_mm": 16.75,
+        "quality": "valid",
+        "process_id": "p7"
+      },
+      {
+        "reading_id": "r8-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-09T12:00:00+00:00",
+        "end": "2025-06-09T14:00:00+00:00",
+        "rain_mm": 1.45,
+        "quality": "valid",
+        "process_id": "p8"
+      },
+      {
+        "reading_id": "r8-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-09T12:00:00+00:00",
+        "end": "2025-06-09T13:00:00+00:00",
+        "rain_mm": 8.13,
+        "quality": "valid",
+        "process_id": "p8"
+      },
+      {
+        "reading_id": "r8-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-09T12:00:00+00:00",
+        "end": "2025-06-09T14:00:00+00:00",
+        "rain_mm": 8.9,
+        "quality": "valid",
+        "process_id": "p8"
+      },
+      {
+        "reading_id": "r8-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-09T12:00:00+00:00",
+        "end": "2025-06-09T13:00:00+00:00",
+        "rain_mm": 9.58,
+        "quality": "valid",
+        "process_id": "p8"
+      },
+      {
+        "reading_id": "r8-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-09T12:00:00+00:00",
+        "end": "2025-06-09T14:00:00+00:00",
+        "rain_mm": 3.96,
+        "quality": "valid",
+        "process_id": "p8"
+      },
+      {
+        "reading_id": "r8-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-09T12:00:00+00:00",
+        "end": "2025-06-09T13:00:00+00:00",
+        "rain_mm": 3.48,
+        "quality": "valid",
+        "process_id": "p8"
+      },
+      {
+        "reading_id": "r9-0",
+        "station_id": "s0",
+        "position_version": 1,
+        "start": "2025-06-10T12:00:00+00:00",
+        "end": "2025-06-10T14:00:00+00:00",
+        "rain_mm": 4.85,
+        "quality": "valid",
+        "process_id": "p9"
+      },
+      {
+        "reading_id": "r9-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-10T12:00:00+00:00",
+        "end": "2025-06-10T13:00:00+00:00",
+        "rain_mm": 8.87,
+        "quality": "valid",
+        "process_id": "p9"
+      },
+      {
+        "reading_id": "r9-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-10T12:00:00+00:00",
+        "end": "2025-06-10T14:00:00+00:00",
+        "rain_mm": 13.56,
+        "quality": "valid",
+        "process_id": "p9"
+      },
+      {
+        "reading_id": "r9-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-10T12:00:00+00:00",
+        "end": "2025-06-10T13:00:00+00:00",
+        "rain_mm": 15.27,
+        "quality": "valid",
+        "process_id": "p9"
+      },
+      {
+        "reading_id": "r9-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-10T12:00:00+00:00",
+        "end": "2025-06-10T14:00:00+00:00",
+        "rain_mm": 12.8,
+        "quality": "valid",
+        "process_id": "p9"
+      },
+      {
+        "reading_id": "r9-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-10T12:00:00+00:00",
+        "end": "2025-06-10T13:00:00+00:00",
+        "rain_mm": 4.61,
+        "quality": "valid",
+        "process_id": "p9"
+      },
+      {
+        "reading_id": "r10-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-11T12:00:00+00:00",
+        "end": "2025-06-11T14:00:00+00:00",
+        "rain_mm": 19.07,
+        "quality": "valid",
+        "process_id": "p10"
+      },
+      {
+        "reading_id": "r10-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-11T12:00:00+00:00",
+        "end": "2025-06-11T13:00:00+00:00",
+        "rain_mm": 9.12,
+        "quality": "valid",
+        "process_id": "p10"
+      },
+      {
+        "reading_id": "r10-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-11T12:00:00+00:00",
+        "end": "2025-06-11T14:00:00+00:00",
+        "rain_mm": 16.53,
+        "quality": "valid",
+        "process_id": "p10"
+      },
+      {
+        "reading_id": "r10-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-11T12:00:00+00:00",
+        "end": "2025-06-11T13:00:00+00:00",
+        "rain_mm": 16.11,
+        "quality": "valid",
+        "process_id": "p10"
+      },
+      {
+        "reading_id": "r10-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-11T12:00:00+00:00",
+        "end": "2025-06-11T14:00:00+00:00",
+        "rain_mm": 16.04,
+        "quality": "valid",
+        "process_id": "p10"
+      },
+      {
+        "reading_id": "r10-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-11T12:00:00+00:00",
+        "end": "2025-06-11T13:00:00+00:00",
+        "rain_mm": 17.99,
+        "quality": "valid",
+        "process_id": "p10"
+      },
+      {
+        "reading_id": "r11-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-12T12:00:00+00:00",
+        "end": "2025-06-12T14:00:00+00:00",
+        "rain_mm": 21.13,
+        "quality": "valid",
+        "process_id": "p11"
+      },
+      {
+        "reading_id": "r11-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-12T12:00:00+00:00",
+        "end": "2025-06-12T13:00:00+00:00",
+        "rain_mm": 18.18,
+        "quality": "valid",
+        "process_id": "p11"
+      },
+      {
+        "reading_id": "r11-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-12T12:00:00+00:00",
+        "end": "2025-06-12T14:00:00+00:00",
+        "rain_mm": 17.26,
+        "quality": "valid",
+        "process_id": "p11"
+      },
+      {
+        "reading_id": "r11-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-12T12:00:00+00:00",
+        "end": "2025-06-12T13:00:00+00:00",
+        "rain_mm": 13.7,
+        "quality": "valid",
+        "process_id": "p11"
+      },
+      {
+        "reading_id": "r11-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-12T12:00:00+00:00",
+        "end": "2025-06-12T14:00:00+00:00",
+        "rain_mm": 21.89,
+        "quality": "valid",
+        "process_id": "p11"
+      },
+      {
+        "reading_id": "r11-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-12T12:00:00+00:00",
+        "end": "2025-06-12T13:00:00+00:00",
+        "rain_mm": 16.66,
+        "quality": "valid",
+        "process_id": "p11"
+      },
+      {
+        "reading_id": "r12-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-13T12:00:00+00:00",
+        "end": "2025-06-13T14:00:00+00:00",
+        "rain_mm": 8.09,
+        "quality": "valid",
+        "process_id": "p12"
+      },
+      {
+        "reading_id": "r12-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-13T12:00:00+00:00",
+        "end": "2025-06-13T13:00:00+00:00",
+        "rain_mm": 5.63,
+        "quality": "valid",
+        "process_id": "p12"
+      },
+      {
+        "reading_id": "r12-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-13T12:00:00+00:00",
+        "end": "2025-06-13T14:00:00+00:00",
+        "rain_mm": 4.01,
+        "quality": "valid",
+        "process_id": "p12"
+      },
+      {
+        "reading_id": "r12-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-13T12:00:00+00:00",
+        "end": "2025-06-13T13:00:00+00:00",
+        "rain_mm": 5.13,
+        "quality": "valid",
+        "process_id": "p12"
+      },
+      {
+        "reading_id": "r12-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-13T12:00:00+00:00",
+        "end": "2025-06-13T14:00:00+00:00",
+        "rain_mm": 7.63,
+        "quality": "valid",
+        "process_id": "p12"
+      },
+      {
+        "reading_id": "r12-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-13T12:00:00+00:00",
+        "end": "2025-06-13T13:00:00+00:00",
+        "rain_mm": 9.82,
+        "quality": "valid",
+        "process_id": "p12"
+      },
+      {
+        "reading_id": "r13-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-14T12:00:00+00:00",
+        "end": "2025-06-14T14:00:00+00:00",
+        "rain_mm": 15.34,
+        "quality": "valid",
+        "process_id": "p13"
+      },
+      {
+        "reading_id": "r13-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-14T12:00:00+00:00",
+        "end": "2025-06-14T13:00:00+00:00",
+        "rain_mm": 12.4,
+        "quality": "valid",
+        "process_id": "p13"
+      },
+      {
+        "reading_id": "r13-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-14T12:00:00+00:00",
+        "end": "2025-06-14T14:00:00+00:00",
+        "rain_mm": 14.28,
+        "quality": "valid",
+        "process_id": "p13"
+      },
+      {
+        "reading_id": "r13-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-14T12:00:00+00:00",
+        "end": "2025-06-14T13:00:00+00:00",
+        "rain_mm": 7.05,
+        "quality": "valid",
+        "process_id": "p13"
+      },
+      {
+        "reading_id": "r13-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-14T12:00:00+00:00",
+        "end": "2025-06-14T14:00:00+00:00",
+        "rain_mm": 7.57,
+        "quality": "valid",
+        "process_id": "p13"
+      },
+      {
+        "reading_id": "r13-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-14T12:00:00+00:00",
+        "end": "2025-06-14T13:00:00+00:00",
+        "rain_mm": 8.87,
+        "quality": "valid",
+        "process_id": "p13"
+      },
+      {
+        "reading_id": "r14-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-15T12:00:00+00:00",
+        "end": "2025-06-15T14:00:00+00:00",
+        "rain_mm": 13.1,
+        "quality": "valid",
+        "process_id": "p14"
+      },
+      {
+        "reading_id": "r14-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-15T12:00:00+00:00",
+        "end": "2025-06-15T13:00:00+00:00",
+        "rain_mm": 15.48,
+        "quality": "valid",
+        "process_id": "p14"
+      },
+      {
+        "reading_id": "r14-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-15T12:00:00+00:00",
+        "end": "2025-06-15T14:00:00+00:00",
+        "rain_mm": 8.02,
+        "quality": "valid",
+        "process_id": "p14"
+      },
+      {
+        "reading_id": "r14-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-15T12:00:00+00:00",
+        "end": "2025-06-15T13:00:00+00:00",
+        "rain_mm": 9.03,
+        "quality": "valid",
+        "process_id": "p14"
+      },
+      {
+        "reading_id": "r14-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-15T12:00:00+00:00",
+        "end": "2025-06-15T14:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing",
+        "process_id": "p14"
+      },
+      {
+        "reading_id": "r14-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-15T12:00:00+00:00",
+        "end": "2025-06-15T13:00:00+00:00",
+        "rain_mm": 12.52,
+        "quality": "valid",
+        "process_id": "p14"
+      },
+      {
+        "reading_id": "r15-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-16T12:00:00+00:00",
+        "end": "2025-06-16T14:00:00+00:00",
+        "rain_mm": 22.37,
+        "quality": "valid",
+        "process_id": "p15"
+      },
+      {
+        "reading_id": "r15-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-16T12:00:00+00:00",
+        "end": "2025-06-16T13:00:00+00:00",
+        "rain_mm": 15.35,
+        "quality": "valid",
+        "process_id": "p15"
+      },
+      {
+        "reading_id": "r15-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-16T12:00:00+00:00",
+        "end": "2025-06-16T14:00:00+00:00",
+        "rain_mm": 14.82,
+        "quality": "valid",
+        "process_id": "p15"
+      },
+      {
+        "reading_id": "r15-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-16T12:00:00+00:00",
+        "end": "2025-06-16T13:00:00+00:00",
+        "rain_mm": 12.1,
+        "quality": "valid",
+        "process_id": "p15"
+      },
+      {
+        "reading_id": "r15-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-16T12:00:00+00:00",
+        "end": "2025-06-16T14:00:00+00:00",
+        "rain_mm": 18.21,
+        "quality": "valid",
+        "process_id": "p15"
+      },
+      {
+        "reading_id": "r15-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-16T12:00:00+00:00",
+        "end": "2025-06-16T13:00:00+00:00",
+        "rain_mm": 12.66,
+        "quality": "valid",
+        "process_id": "p15"
+      },
+      {
+        "reading_id": "r16-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-17T12:00:00+00:00",
+        "end": "2025-06-17T14:00:00+00:00",
+        "rain_mm": 4.78,
+        "quality": "valid",
+        "process_id": "p16"
+      },
+      {
+        "reading_id": "r16-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-17T12:00:00+00:00",
+        "end": "2025-06-17T13:00:00+00:00",
+        "rain_mm": 4.37,
+        "quality": "valid",
+        "process_id": "p16"
+      },
+      {
+        "reading_id": "r16-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-17T12:00:00+00:00",
+        "end": "2025-06-17T14:00:00+00:00",
+        "rain_mm": 10.28,
+        "quality": "valid",
+        "process_id": "p16"
+      },
+      {
+        "reading_id": "r16-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-17T12:00:00+00:00",
+        "end": "2025-06-17T13:00:00+00:00",
+        "rain_mm": 11.18,
+        "quality": "valid",
+        "process_id": "p16"
+      },
+      {
+        "reading_id": "r16-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-17T12:00:00+00:00",
+        "end": "2025-06-17T14:00:00+00:00",
+        "rain_mm": 1.87,
+        "quality": "valid",
+        "process_id": "p16"
+      },
+      {
+        "reading_id": "r16-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-17T12:00:00+00:00",
+        "end": "2025-06-17T13:00:00+00:00",
+        "rain_mm": 1.26,
+        "quality": "valid",
+        "process_id": "p16"
+      },
+      {
+        "reading_id": "r17-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-18T12:00:00+00:00",
+        "end": "2025-06-18T14:00:00+00:00",
+        "rain_mm": 11.88,
+        "quality": "valid",
+        "process_id": "p17"
+      },
+      {
+        "reading_id": "r17-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-18T12:00:00+00:00",
+        "end": "2025-06-18T13:00:00+00:00",
+        "rain_mm": 4.56,
+        "quality": "valid",
+        "process_id": "p17"
+      },
+      {
+        "reading_id": "r17-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-18T12:00:00+00:00",
+        "end": "2025-06-18T14:00:00+00:00",
+        "rain_mm": 9.82,
+        "quality": "valid",
+        "process_id": "p17"
+      },
+      {
+        "reading_id": "r17-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-18T12:00:00+00:00",
+        "end": "2025-06-18T13:00:00+00:00",
+        "rain_mm": 6.47,
+        "quality": "valid",
+        "process_id": "p17"
+      },
+      {
+        "reading_id": "r17-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-18T12:00:00+00:00",
+        "end": "2025-06-18T14:00:00+00:00",
+        "rain_mm": 9.78,
+        "quality": "valid",
+        "process_id": "p17"
+      },
+      {
+        "reading_id": "r17-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-18T12:00:00+00:00",
+        "end": "2025-06-18T13:00:00+00:00",
+        "rain_mm": 7.32,
+        "quality": "valid",
+        "process_id": "p17"
+      },
+      {
+        "reading_id": "r18-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-19T12:00:00+00:00",
+        "end": "2025-06-19T14:00:00+00:00",
+        "rain_mm": 17.02,
+        "quality": "valid",
+        "process_id": "p18"
+      },
+      {
+        "reading_id": "r18-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-19T12:00:00+00:00",
+        "end": "2025-06-19T13:00:00+00:00",
+        "rain_mm": 11.94,
+        "quality": "valid",
+        "process_id": "p18"
+      },
+      {
+        "reading_id": "r18-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-19T12:00:00+00:00",
+        "end": "2025-06-19T14:00:00+00:00",
+        "rain_mm": 18.62,
+        "quality": "valid",
+        "process_id": "p18"
+      },
+      {
+        "reading_id": "r18-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-19T12:00:00+00:00",
+        "end": "2025-06-19T13:00:00+00:00",
+        "rain_mm": 12.54,
+        "quality": "valid",
+        "process_id": "p18"
+      },
+      {
+        "reading_id": "r18-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-19T12:00:00+00:00",
+        "end": "2025-06-19T14:00:00+00:00",
+        "rain_mm": 19.69,
+        "quality": "valid",
+        "process_id": "p18"
+      },
+      {
+        "reading_id": "r18-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-19T12:00:00+00:00",
+        "end": "2025-06-19T13:00:00+00:00",
+        "rain_mm": 10.82,
+        "quality": "valid",
+        "process_id": "p18"
+      },
+      {
+        "reading_id": "r19-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-20T12:00:00+00:00",
+        "end": "2025-06-20T14:00:00+00:00",
+        "rain_mm": 17.26,
+        "quality": "valid",
+        "process_id": "p19"
+      },
+      {
+        "reading_id": "r19-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-20T12:00:00+00:00",
+        "end": "2025-06-20T13:00:00+00:00",
+        "rain_mm": 19.17,
+        "quality": "valid",
+        "process_id": "p19"
+      },
+      {
+        "reading_id": "r19-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-20T12:00:00+00:00",
+        "end": "2025-06-20T14:00:00+00:00",
+        "rain_mm": 18.75,
+        "quality": "valid",
+        "process_id": "p19"
+      },
+      {
+        "reading_id": "r19-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-20T12:00:00+00:00",
+        "end": "2025-06-20T13:00:00+00:00",
+        "rain_mm": 13.15,
+        "quality": "valid",
+        "process_id": "p19"
+      },
+      {
+        "reading_id": "r19-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-20T12:00:00+00:00",
+        "end": "2025-06-20T14:00:00+00:00",
+        "rain_mm": 19.25,
+        "quality": "valid",
+        "process_id": "p19"
+      },
+      {
+        "reading_id": "r19-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-20T12:00:00+00:00",
+        "end": "2025-06-20T13:00:00+00:00",
+        "rain_mm": 19.4,
+        "quality": "valid",
+        "process_id": "p19"
+      },
+      {
+        "reading_id": "r20-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-21T12:00:00+00:00",
+        "end": "2025-06-21T14:00:00+00:00",
+        "rain_mm": 9.99,
+        "quality": "valid",
+        "process_id": "p20"
+      },
+      {
+        "reading_id": "r20-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-21T12:00:00+00:00",
+        "end": "2025-06-21T13:00:00+00:00",
+        "rain_mm": 8.85,
+        "quality": "valid",
+        "process_id": "p20"
+      },
+      {
+        "reading_id": "r20-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-21T12:00:00+00:00",
+        "end": "2025-06-21T14:00:00+00:00",
+        "rain_mm": 7.6,
+        "quality": "valid",
+        "process_id": "p20"
+      },
+      {
+        "reading_id": "r20-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-21T12:00:00+00:00",
+        "end": "2025-06-21T13:00:00+00:00",
+        "rain_mm": 8.02,
+        "quality": "valid",
+        "process_id": "p20"
+      },
+      {
+        "reading_id": "r20-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-21T12:00:00+00:00",
+        "end": "2025-06-21T14:00:00+00:00",
+        "rain_mm": 10.72,
+        "quality": "valid",
+        "process_id": "p20"
+      },
+      {
+        "reading_id": "r20-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-21T12:00:00+00:00",
+        "end": "2025-06-21T13:00:00+00:00",
+        "rain_mm": 8.31,
+        "quality": "valid",
+        "process_id": "p20"
+      },
+      {
+        "reading_id": "r21-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-22T12:00:00+00:00",
+        "end": "2025-06-22T14:00:00+00:00",
+        "rain_mm": 15.05,
+        "quality": "valid",
+        "process_id": "p21"
+      },
+      {
+        "reading_id": "r21-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-22T12:00:00+00:00",
+        "end": "2025-06-22T13:00:00+00:00",
+        "rain_mm": 14.2,
+        "quality": "valid",
+        "process_id": "p21"
+      },
+      {
+        "reading_id": "r21-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-22T12:00:00+00:00",
+        "end": "2025-06-22T14:00:00+00:00",
+        "rain_mm": 9.35,
+        "quality": "valid",
+        "process_id": "p21"
+      },
+      {
+        "reading_id": "r21-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-22T12:00:00+00:00",
+        "end": "2025-06-22T13:00:00+00:00",
+        "rain_mm": 4.77,
+        "quality": "valid",
+        "process_id": "p21"
+      },
+      {
+        "reading_id": "r21-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-22T12:00:00+00:00",
+        "end": "2025-06-22T14:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing",
+        "process_id": "p21"
+      },
+      {
+        "reading_id": "r21-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-22T12:00:00+00:00",
+        "end": "2025-06-22T13:00:00+00:00",
+        "rain_mm": 8.59,
+        "quality": "valid",
+        "process_id": "p21"
+      },
+      {
+        "reading_id": "r22-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-23T12:00:00+00:00",
+        "end": "2025-06-23T14:00:00+00:00",
+        "rain_mm": 18.0,
+        "quality": "valid",
+        "process_id": "p22"
+      },
+      {
+        "reading_id": "r22-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-23T12:00:00+00:00",
+        "end": "2025-06-23T13:00:00+00:00",
+        "rain_mm": 9.72,
+        "quality": "valid",
+        "process_id": "p22"
+      },
+      {
+        "reading_id": "r22-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-23T12:00:00+00:00",
+        "end": "2025-06-23T14:00:00+00:00",
+        "rain_mm": 11.42,
+        "quality": "valid",
+        "process_id": "p22"
+      },
+      {
+        "reading_id": "r22-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-23T12:00:00+00:00",
+        "end": "2025-06-23T13:00:00+00:00",
+        "rain_mm": 10.68,
+        "quality": "valid",
+        "process_id": "p22"
+      },
+      {
+        "reading_id": "r22-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-23T12:00:00+00:00",
+        "end": "2025-06-23T14:00:00+00:00",
+        "rain_mm": 19.81,
+        "quality": "valid",
+        "process_id": "p22"
+      },
+      {
+        "reading_id": "r22-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-23T12:00:00+00:00",
+        "end": "2025-06-23T13:00:00+00:00",
+        "rain_mm": 15.43,
+        "quality": "valid",
+        "process_id": "p22"
+      },
+      {
+        "reading_id": "r23-0",
+        "station_id": "s0",
+        "position_version": 2,
+        "start": "2025-06-24T12:00:00+00:00",
+        "end": "2025-06-24T14:00:00+00:00",
+        "rain_mm": 22.18,
+        "quality": "valid",
+        "process_id": "p23"
+      },
+      {
+        "reading_id": "r23-1",
+        "station_id": "s1",
+        "position_version": 1,
+        "start": "2025-06-24T12:00:00+00:00",
+        "end": "2025-06-24T13:00:00+00:00",
+        "rain_mm": 14.19,
+        "quality": "valid",
+        "process_id": "p23"
+      },
+      {
+        "reading_id": "r23-2",
+        "station_id": "s2",
+        "position_version": 1,
+        "start": "2025-06-24T12:00:00+00:00",
+        "end": "2025-06-24T14:00:00+00:00",
+        "rain_mm": 16.13,
+        "quality": "valid",
+        "process_id": "p23"
+      },
+      {
+        "reading_id": "r23-3",
+        "station_id": "s3",
+        "position_version": 1,
+        "start": "2025-06-24T12:00:00+00:00",
+        "end": "2025-06-24T13:00:00+00:00",
+        "rain_mm": 18.57,
+        "quality": "valid",
+        "process_id": "p23"
+      },
+      {
+        "reading_id": "r23-4",
+        "station_id": "s4",
+        "position_version": 1,
+        "start": "2025-06-24T12:00:00+00:00",
+        "end": "2025-06-24T14:00:00+00:00",
+        "rain_mm": 23.98,
+        "quality": "valid",
+        "process_id": "p23"
+      },
+      {
+        "reading_id": "r23-5",
+        "station_id": "s5",
+        "position_version": 1,
+        "start": "2025-06-24T12:00:00+00:00",
+        "end": "2025-06-24T13:00:00+00:00",
+        "rain_mm": 14.93,
+        "quality": "valid",
+        "process_id": "p23"
+      }
+    ],
+    "villages": [
+      {
+        "village_id": "v0",
+        "xmin": 0,
+        "ymin": 0,
+        "xmax": 600,
+        "ymax": 800
+      },
+      {
+        "village_id": "v1",
+        "xmin": 600,
+        "ymin": 0,
+        "xmax": 1200,
+        "ymax": 800
+      },
+      {
+        "village_id": "v2",
+        "xmin": 1200,
+        "ymin": 0,
+        "xmax": 1800,
+        "ymax": 800
+      },
+      {
+        "village_id": "v3",
+        "xmin": 1800,
+        "ymin": 0,
+        "xmax": 2400,
+        "ymax": 800
+      }
+    ]
+  },
+  "metadata": {
+    "kind": "本地合成领域资料",
+    "cutoff": "2025-09-09T00:00:00+00:00"
+  }
+}

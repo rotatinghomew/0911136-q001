@@ -1,0 +1,43 @@
+{
+  "stations": {
+    "keys": [
+      "station_id",
+      "position_version"
+    ],
+    "columns": [
+      "station_id",
+      "position_version",
+      "x",
+      "y",
+      "start",
+      "end"
+    ]
+  },
+  "readings": {
+    "keys": [
+      "reading_id"
+    ],
+    "columns": [
+      "reading_id",
+      "station_id",
+      "position_version",
+      "start",
+      "end",
+      "rain_mm",
+      "quality",
+      "process_id"
+    ]
+  },
+  "villages": {
+    "keys": [
+      "village_id"
+    ],
+    "columns": [
+      "village_id",
+      "xmin",
+      "ymin",
+      "xmax",
+      "ymax"
+    ]
+  }
+}
