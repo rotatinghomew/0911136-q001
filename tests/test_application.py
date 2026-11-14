@@ -6,9 +6,10 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from rainnet.analysis import summarize
+from rainnet.analysis import analyze_area, summarize
 from rainnet.datasource import GenerationChanged, SourceClient, SourceError, Snapshot, digest
-from rainnet.reports import load_report, package_report, save_report
+from rainnet.reports import (load_area_report, load_report, package_area_report,
+                             package_report, save_report)
 from rainnet.service import DataRepository, load_repository, serve
 
 
@@ -110,3 +111,39 @@ class ApplicationTests(unittest.TestCase):
         with serve(repository) as address:
             with self.assertRaises(GenerationChanged):
                 SourceClient(address).read()
+
+    def test_area_analysis_uses_one_generation_over_http(self):
+        with serve(self.repository) as address:
+            snapshot = SourceClient(address).read()
+        self.assertEqual(self.data["generation"], snapshot.generation)
+        self.assertEqual(analyze_area(self.data["tables"]), analyze_area(snapshot.tables))
+        self.assertEqual(set(self.schema), set(snapshot.evidence))
+
+    def test_area_report_roundtrip_and_kind_check(self):
+        snapshot = Snapshot(self.data["generation"], self.data["tables"], {}, {})
+        report = package_area_report(snapshot, analyze_area(snapshot.tables))
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "area.json"
+            save_report(target, report)
+            self.assertEqual(report, load_area_report(target))
+            changed = json.loads(target.read_text())
+            changed["analysis"]["basis"]["duration_seconds"] += 1
+            target.write_text(json.dumps(changed))
+            with self.assertRaises(ValueError):
+                load_area_report(target)
+        point_report = package_report(snapshot, summarize(snapshot.tables))
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "summary.json"
+            save_report(target, point_report)
+            with self.assertRaises(ValueError):
+                load_area_report(target)
+
+    def test_area_report_id_is_content_digest(self):
+        snapshot = Snapshot(self.data["generation"], self.data["tables"], {}, {})
+        analysis = analyze_area(snapshot.tables)
+        first = package_area_report(snapshot, analysis)
+        second = package_area_report(snapshot, analysis)
+        self.assertEqual(first["report_id"], second["report_id"])
+        changed = copy.deepcopy(analysis)
+        changed["thresholds"]["coverage"] = 0.6
+        self.assertNotEqual(first["report_id"], package_area_report(snapshot, changed)["report_id"])
